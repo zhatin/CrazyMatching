@@ -3,7 +3,7 @@
  * @email zhatin@163.com
  * @create date 2020-03-25 17:27:30
  * @modify date 2020-03-26 17:32:42
- * @desc Spot It card game generator main program]
+ * @desc Spot It card game generator main program
  */
 import java.util.ArrayList;
 import java.util.HashMap;
