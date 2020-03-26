@@ -1,3 +1,10 @@
+/**
+ * @author Zhang Ting
+ * @email zhatin@163.com
+ * @create date 2020-03-25 17:30:06
+ * @modify date 2020-03-26 17:30:06
+ * @desc Spot It card game generator Class Card
+ */
 import java.util.ArrayList;
 import java.util.List;
 
