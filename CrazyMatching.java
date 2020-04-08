@@ -2,7 +2,7 @@
  * @author Zhang Ting
  * @email zhatin@163.com
  * @create date 2020-03-25 17:27:30
- * @modify date 2020-03-26 17:32:42
+ * @modify date 2020-04-08 10:30:12
  * @desc Spot It card game generator main program
  */
 import java.util.ArrayList;
@@ -101,9 +101,7 @@ public class CrazyMatching {
 			return false;
 		for (int i = 0; i < cards.size(); i++) {
 			Card card0 = cards.get(i);
-			for (int j = 0; j < cards.size(); j++) {
-				if (i == j)
-					continue;
+			for (int j = i + 1; j < cards.size(); j++) {
 				Card card1 = cards.get(j);
 				if (!checkMatch(card0, card1)) {
 					card0.print();
